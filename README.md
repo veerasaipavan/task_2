@@ -98,7 +98,7 @@ This task is part of the **Data Analyst Internship assignment (Task 2)**.
 
 *(Example screenshot – add your actual exported PNG here)*  
 
-![Netflix Dashboard](Screenshot_2025-09-24_223633.png)  
+![Netflix Dashboard](Screenshot)  
 ## ✨ Author **Veera Sai Pavan Chavvakula** 📧 Email: veerasaipavan6673@gmail.com 🔗 [LinkedIn](https://www.linkedin.com/in/veera-sai-pavan-chavvakula-6260a72bb) )
 
 ---
