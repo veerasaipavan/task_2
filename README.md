@@ -1,115 +1,105 @@
-### Task 2 – Power BI Dashboard (Netflix Dataset)
-##📌 Project Overview
+# Task-2 – Netflix Power BI Dashboard  
+Data visualization and storytelling using the cleaned Netflix dataset  
 
-This project is part of my Data Analyst Internship – Task 2: Data Visualization and Storytelling.
-Using the cleaned Netflix dataset from Task 1, I built an interactive Power BI dashboard to analyze content growth, genre distribution, ratings, and country-specific contributions.
-The goal is to transform raw data into business insights through effective storytelling.
+# Task 2: Power BI Dashboard & Storytelling (Netflix Dataset)  
 
-##📂 Dataset Used
+## 🎯 Objective  
+The goal of this task was to **create an interactive Power BI dashboard** using the cleaned Netflix dataset (prepared in Task 1).  
+The dashboard visualizes Netflix’s **content growth, genre distribution, maturity ratings, and country-specific contributions**, providing business insights into Netflix’s content strategy.  
 
-Dataset: Cleaned Netflix Dataset (from Task 1)
+This task is part of the **Data Analyst Internship assignment (Task 2)**.  
 
-Source: Netflix Titles – Kaggle
+---
 
-Rows: ~6,000+
+## 📂 Files in this Repository  
+- **dataset/**  
+  - `cleaned_netflix.csv` → Cleaned dataset from Task 1 used in Power BI  
 
-Columns: 12 (after cleaning)
+- **dashboard/**  
+  - `Netflix_PowerBI_Dashboard.pbix` → Power BI file with the dashboard  
 
-##🔑 Key Fields
+- **Dashboard_Screenshots/**  
+  - `dashboard_overview.png`  
+  - `movies_vs_tv.png`  
+  - `ratings_distribution.png`  
+  - `top_genres.png`  
+  - `country_contributions.png`  
 
-type (Movie / TV Show)
+- **README.md**  
+  - This documentation file explaining what was done  
 
-title
+---
 
-director
+## ⚙️ Steps Performed  
 
-cast
+### 1. Imported Dataset  
+- Loaded the **cleaned Netflix dataset** from Task 1 into Power BI.  
+- Checked and ensured datatypes (date, numeric, categorical) were formatted correctly.  
 
-country
+### 2. Data Modeling & DAX  
+- Created calculated measures with **DAX** for insights like:  
+  - Number of titles per year  
+  - Movies vs TV shows percentages  
+  - Distribution of content by rating and genre  
 
-date_added
+### 3. Designed Visuals  
+- Built multiple visuals to highlight key trends:  
+  - **Line Chart** → Content growth over years  
+  - **Donut Chart** → Movies vs TV shows  
+  - **Column Chart** → Ratings distribution  
+  - **Treemap/Bar Chart** → Genre distribution  
+  - **Map/Bar Chart** → Top contributing countries  
 
-release_year
+### 4. Dashboard Formatting  
+- Applied consistent **color scheme and layout**.  
+- Added **slicers** (filters) for Year, Country, Rating, and Type.  
+- Included descriptive **titles and tooltips** for clarity.  
 
-rating
+---
 
-duration
+## 📊 Dashboard Insights  
 
-listed_in (Genres)
+### 1. Content Growth Over Time  
+- Netflix’s content library grew rapidly after **2015**, peaking around 2018–2019.  
 
-##🛠 Steps Performed
+### 2. Ratings Breakdown  
+- Majority of titles are **adult-oriented (TV-MA, TV-14)**.  
+- **PG and kid-friendly content** form only a small portion.  
 
-Imported cleaned dataset into Power BI.
+### 3. Movies vs TV Shows  
+- **Movies dominate (~70%)**, while **TV shows are steadily increasing** year by year.  
 
-Checked and formatted datatypes (date, numeric, categorical).
+### 4. Top Genres  
+- **International Movies, Dramas, and Comedies** are the most common genres.  
+- Niche genres like **Sports** and **Musicals** have very few titles.  
 
-Created calculated measures using DAX (e.g., content counts, percentages).
+### 5. Country Contributions  
+- **USA, India, and the UK** are the largest contributors to Netflix’s catalog.  
 
-Designed interactive visuals to track Netflix content trends.
+---
 
-Applied consistent formatting: filters, slicers, color theme, and layout.
+## ✅ Final Results  
+- Built an **interactive Power BI dashboard** for Netflix content analysis.  
+- Key business insights:  
+  - Netflix shifted strategy to rapid expansion post-2015.  
+  - Catalog is dominated by **Movies** but **TV Shows are catching up**.  
+  - Focus on **adult-oriented and international content**.  
 
-##📊 Dashboard Details
+---
 
-Content Growth Over Time (Line Chart)
+## 🚀 Tools Used  
+- Power BI Desktop  
+- DAX (Data Analysis Expressions)  
+- Excel/CSV (Cleaned dataset from Task 1)  
 
-Tracks how Netflix expanded its library year by year.
+---
 
-Insight: Growth accelerated significantly after 2015.
+## 📸 Dashboard Preview  
 
-Ratings Breakdown (Column Chart)
+*(Example screenshot – add your actual exported PNG here)*  
 
-Shows maturity rating distribution (TV-MA, TV-14, PG, etc.).
+![Netflix Dashboard](Dashboard_Screenshots/dashboard_overview.png)  
+## ✨ Author **Veera Sai Pavan Chavvakula** 📧 Email: veerasaipavan6673@gmail.com 🔗 [LinkedIn](https://www.linkedin.com/in/veera-sai-pavan-chavvakula-6260a72bb) )
 
-Insight: Most titles are adult-oriented (TV-MA, TV-14).
-
-Movies vs TV Shows (Donut Chart)
-
-Compares proportion of Movies vs TV Shows.
-
-Insight: Movies dominate (~70%), but TV shows are increasing steadily.
-
-Top Genres (Bar/Treemap Chart)
-
-Displays the most common genres.
-
-Insight: International Movies, Dramas, and Comedies lead.
-
-Country Contributions (Map/Bar Chart)
-
-Highlights countries producing the most titles.
-
-Insight: USA, India, and UK dominate.
-
-Interactive Filters (Slicers)
-
-Year, Type, Country, and Rating filters added for flexible exploration.
-
-##🚀 Business Insights
-
-Netflix’s content library grew rapidly after 2015.
-
-Movies dominate the platform, though TV Shows are growing steadily.
-
-Content is largely adult-oriented (TV-MA, TV-14).
-
-Drama, Comedy, and International Movies are the top genres.
-
-USA, India, and UK are the biggest contributors to Netflix’s catalog.
-
-##🛠 Tools & Technologies
-
-Power BI Desktop – Dashboard creation
-
-DAX – Custom calculations
-
-Excel/CSV – Cleaned dataset from Task 1
-
-##📂 Deliverables
-
-Netflix_PowerBI_Dashboard.pbix → Power BI file
-
-Dashboard_Screenshots/ → Exported dashboard views (PNG/PDF)
-## Author **Veera Sai Pavan Chavvakula**
-###📧 Email: veerasaipavan6673@gmail.com 🔗 [LinkedIn](https://www.linkedin.com/in/veera-sai-pavan-chavvakula-6260a72bb) )
+---
 
